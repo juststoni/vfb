@@ -1,0 +1,108 @@
+main {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+body{
+    margin:0;
+    
+    
+}
+h2{ 
+    margin: 0px;
+    padding-top: 10px;
+
+}
+br{
+    padding-top: 0px;
+}
+nav{
+    background-color: darkred; 
+    height: 50px;
+    position:fixed;
+    width: 100%;
+    
+    
+}
+.navbar navbar-expand-lg navbar-dark{
+    position:fixed;
+}
+.navlist{
+    float: right;
+        
+    
+}
+.navlist li{
+    display: inline-block;
+    
+    
+}
+.navlist li a{
+   color: #fff;
+margin: 0 20px; 
+    text-decoration: none;
+    
+}
+.navlist li a:hover{
+    color:darkgoldenrod;
+    
+}
+footer{ 
+    background-color: darkred;
+    text-align: center;
+    text-decoration: none
+
+
+}
+.footerlist{
+    float:right;
+    background-color: darkred;
+    width: 100%;
+    height: 40px;
+    margin: auto;
+}
+
+.footerlist li {
+    padding: 10px;
+    display: inline-block;
+}
+
+.footerlist li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.text-center{
+    text-align: center
+}
+.Start{
+    background-image: url(Bilder/_MG_5298.JPG);
+    background-position: center;
+    background-size: cover;
+    padding: 150px;
+}
+.stadion{
+    background-image: url(Bilder/IMG_4205.JPG);
+    background-position: center;
+    background-size: cover;
+    padding: 150px;
+    color: white;
+    
+    
+}
+.klassisch{
+    background-color: white;
+    padding: 20px 50px;
+    color: black;    
+}
+.form input{
+    padding: 5px;
+    
+    
+    
+}
+.senden{
+    background-color:goldenrod;
+    
+}
