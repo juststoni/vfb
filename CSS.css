@@ -1,27 +1,75 @@
+
 main {
-    padding-left: 100px;
-    padding-right: 100px;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    background-color: white;
+    
 }
-
-
 body{
     margin:0;
-    
+    background-color: #D8DCE4;
     
 }
 h2{ 
     margin: 0px;
-    padding-top: 10px;
+    padding-top: 0px;
 
 }
 br{
     padding-top: 0px;
 }
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: darkred;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: gainsboro;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #F6F6F6}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: darkgoldenrod;
+}
 nav{
     background-color: darkred; 
-    height: 50px;
+    height: 75px;
     position:fixed;
     width: 100%;
+    padding-left: 450px
     
     
 }
@@ -30,6 +78,8 @@ nav{
 }
 .navlist{
     float: right;
+    padding-right: 900px;
+
         
     
 }
@@ -39,8 +89,7 @@ nav{
     
 }
 .navlist li a{
-   color: #fff;
-margin: 0 20px; 
+   color: black; 
     text-decoration: none;
     
 }
@@ -48,61 +97,14 @@ margin: 0 20px;
     color:darkgoldenrod;
     
 }
-footer{ 
-    background-color: darkred;
-    text-align: center;
-    text-decoration: none
-
-
-}
-.footerlist{
-    float:right;
-    background-color: darkred;
-    width: 100%;
-    height: 40px;
-    margin: auto;
-}
-
-.footerlist li {
-    padding: 10px;
-    display: inline-block;
-}
-
-.footerlist li a {
-    text-decoration: none;
-    color: #fff;
-}
-
 .text-center{
-    text-align: center
+    text-align: center;
+        color: white;
 }
 .Start{
-    background-image: url(Bilder/_MG_5298.JPG);
+    background-image: url(Bilder/Jubel.JPG);
     background-position: center;
-    background-size: cover;
     padding: 150px;
-}
-.stadion{
-    background-image: url(Bilder/IMG_4205.JPG);
-    background-position: center;
     background-size: cover;
-    padding: 150px;
-    color: white;
-    
-    
-}
-.klassisch{
-    background-color: white;
-    padding: 20px 50px;
-    color: black;    
-}
-.form input{
-    padding: 5px;
-    
-    
-    
-}
-.senden{
-    background-color:goldenrod;
-    
+    background-color: aqua;
 }
